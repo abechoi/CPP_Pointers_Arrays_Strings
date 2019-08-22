@@ -20,7 +20,8 @@ void ptrFunction( int *p );
 
 int main(){
 
-	int i, *ptr;
+	int i;
+	int *ptr = new int;
 	string output;
 
 	i = 5;		// The variable name alone will always be the value.
